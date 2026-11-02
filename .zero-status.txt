@@ -1,0 +1,10 @@
+checked_at=2026-11-02T19:23:37Z
+launched_cmd=python3 ./remini.py
+alive=no
+status=died
+ports=53 2000 2222 12563 13005 16634 16635 16636 38121 45117 
+--- app log tail ---
+Traceback (most recent call last):
+  File "/workspaces/ayman/./remini.py", line 15, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
