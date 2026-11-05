@@ -1,14 +1,10 @@
-checked_at=2026-11-05T22:45:42Z
-launched_cmd=python3 ./remini.py
+checked_at=2026-11-05T23:04:09Z
+launched_cmd=python3 ./pop.py
 alive=no
 status=died
-ports=53 2000 2222 12563 13005 16634 16635 16636 40731 42235 
+ports=53 2000 2222 12563 13005 16634 16635 16636 42185 45003 
 --- app log tail ---
 Traceback (most recent call last):
-  File "/workspaces/ayman/./remini.py", line 15, in <module>
-    from PIL import Image
-ModuleNotFoundError: No module named 'PIL'
-Traceback (most recent call last):
-  File "/workspaces/ayman/./remini.py", line 15, in <module>
-    from PIL import Image
-ModuleNotFoundError: No module named 'PIL'
+  File "/workspaces/ayman/./pop.py", line 12, in <module>
+    from rich.console import Console
+ModuleNotFoundError: No module named 'rich'
