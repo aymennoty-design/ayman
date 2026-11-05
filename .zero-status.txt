@@ -1,14 +1,10 @@
-checked_at=2026-11-02T19:26:13Z
+checked_at=2026-11-05T22:38:59Z
 launched_cmd=python3 ./remini.py
-alive=yes
-status=running
-ports=53 2000 2222 12563 13005 16634 16635 16636 39013 42793 
+alive=no
+status=died
+ports=53 2000 2222 12563 13005 16634 16635 16636 38233 43917 
 --- app log tail ---
 Traceback (most recent call last):
   File "/workspaces/ayman/./remini.py", line 15, in <module>
     from PIL import Image
 ModuleNotFoundError: No module named 'PIL'
-2026-11-02 19:26:17,824 - __main__ - INFO - 🚀 Remini Premium Bot is running...
-2026-11-02 19:26:19,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8947371808:AAH7k_kTGFMfbRU_pqhiqgI8lCr6gBERQNg/getMe "HTTP/1.1 200 OK"
-2026-11-02 19:26:19,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8947371808:AAH7k_kTGFMfbRU_pqhiqgI8lCr6gBERQNg/deleteWebhook "HTTP/1.1 200 OK"
-2026-11-02 19:26:19,162 - telegram.ext.Application - INFO - Application started
