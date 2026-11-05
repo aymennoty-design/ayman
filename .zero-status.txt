@@ -1,10 +1,17 @@
-checked_at=2026-11-05T23:04:09Z
+checked_at=2026-11-05T23:19:46Z
 launched_cmd=python3 ./pop.py
-alive=no
-status=died
-ports=53 2000 2222 12563 13005 16634 16635 16636 42185 45003 
+alive=yes
+status=running
+ports=53 2000 2222 12563 13005 16634 16635 16636 36237 36373 
 --- app log tail ---
-Traceback (most recent call last):
-  File "/workspaces/ayman/./pop.py", line 12, in <module>
-    from rich.console import Console
-ModuleNotFoundError: No module named 'rich'
+════════════════════════════════════════════════════════════
+   Poppo Live — Auto Hunter (Non-Interactive)
+════════════════════════════════════════════════════════════
+   Threads     : 20
+   Target      : 1,000,000,000 IDs
+   Passwords   : Aa123456, Aa123456789
+   Report      : Every 10 minutes to Telegram
+   Results     : results/poppo_2026-11-05_23-19-48
+════════════════════════════════════════════════════════════
+Starting...
+
