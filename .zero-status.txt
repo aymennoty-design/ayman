@@ -1,17 +1,17 @@
-checked_at=2026-11-05T23:19:46Z
+checked_at=2026-11-06T00:32:50Z
 launched_cmd=python3 ./pop.py
 alive=yes
 status=running
-ports=53 2000 2222 12563 13005 16634 16635 16636 36237 36373 
+ports=53 2000 2222 12563 13005 16634 16635 16636 32915 34853 
 --- app log tail ---
 ════════════════════════════════════════════════════════════
    Poppo Live — Auto Hunter (Non-Interactive)
 ════════════════════════════════════════════════════════════
-   Threads     : 20
+   Threads     : 10
    Target      : 1,000,000,000 IDs
    Passwords   : Aa123456, Aa123456789
    Report      : Every 10 minutes to Telegram
-   Results     : results/poppo_2026-11-05_23-19-48
+   Results     : results/poppo_2026-11-06_00-32-57
 ════════════════════════════════════════════════════════════
 Starting...
 
